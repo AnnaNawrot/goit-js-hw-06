@@ -13,10 +13,10 @@ const images = [
   },
 ];
 
-// znajdujemy element ul.gallery
+//
 const gallery = document.querySelector(".gallery");
 
-// tworzymy kod HTML dla każdego obrazu i dodajemy go do galerii
+//
 const imagesHtml = images
   .map(
     (image) => `

@@ -8,7 +8,7 @@ const ingredients = [
   "Condiments",
 ];
 
-// dla każdego składnika w tablicy tworzymy nowy element li i dodajemy go do listy ul#ingredients
+//
 ingredients.forEach((ingredient) => {
   const li = document.createElement("li");
   li.textContent = ingredient;
